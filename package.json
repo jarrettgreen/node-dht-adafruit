@@ -1,0 +1,19 @@
+{
+  "name": "dht-adafruit-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start -a -l forever.log -o out.log -e err.log index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarrett Green",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "forever": "^0.15.3",
+    "pigpio": "^1.1.0",
+    "pigpio-dht": "^1.1.0"
+  }
+}
