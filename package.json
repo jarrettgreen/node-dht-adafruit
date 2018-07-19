@@ -1,10 +1,11 @@
 {
   "name": "dht-adafruit-io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Adafruit IO integration for DHT Sensors using Node",
   "main": "index.js",
   "scripts": {
     "start": "forever start -a -l forever.log -o out.log -e err.log index.js",
+    "stop": "forever stop index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jarrett Green",
